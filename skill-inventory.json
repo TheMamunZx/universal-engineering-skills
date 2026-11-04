@@ -1,0 +1,457 @@
+[
+  {
+    "id": "software-architect",
+    "category": "01. Core Software Engineering",
+    "path": ".claude/skills/software-architect/SKILL.md"
+  },
+  {
+    "id": "system-design-engineer",
+    "category": "01. Core Software Engineering",
+    "path": ".claude/skills/system-design-engineer/SKILL.md"
+  },
+  {
+    "id": "requirements-analyst",
+    "category": "01. Core Software Engineering",
+    "path": ".claude/skills/requirements-analyst/SKILL.md"
+  },
+  {
+    "id": "project-planner",
+    "category": "01. Core Software Engineering",
+    "path": ".claude/skills/project-planner/SKILL.md"
+  },
+  {
+    "id": "code-review-engineer",
+    "category": "01. Core Software Engineering",
+    "path": ".claude/skills/code-review-engineer/SKILL.md"
+  },
+  {
+    "id": "documentation-engineer",
+    "category": "01. Core Software Engineering",
+    "path": ".claude/skills/documentation-engineer/SKILL.md"
+  },
+  {
+    "id": "llm-engineer",
+    "category": "02. AI & Machine Learning Engineering",
+    "path": ".claude/skills/llm-engineer/SKILL.md"
+  },
+  {
+    "id": "ai-model-integration",
+    "category": "02. AI & Machine Learning Engineering",
+    "path": ".claude/skills/ai-model-integration/SKILL.md"
+  },
+  {
+    "id": "neural-network-engineer",
+    "category": "02. AI & Machine Learning Engineering",
+    "path": ".claude/skills/neural-network-engineer/SKILL.md"
+  },
+  {
+    "id": "machine-learning-engineer",
+    "category": "02. AI & Machine Learning Engineering",
+    "path": ".claude/skills/machine-learning-engineer/SKILL.md"
+  },
+  {
+    "id": "model-training-engineer",
+    "category": "02. AI & Machine Learning Engineering",
+    "path": ".claude/skills/model-training-engineer/SKILL.md"
+  },
+  {
+    "id": "rag-engineer",
+    "category": "02. AI & Machine Learning Engineering",
+    "path": ".claude/skills/rag-engineer/SKILL.md"
+  },
+  {
+    "id": "multimodal-ai-engineer",
+    "category": "02. AI & Machine Learning Engineering",
+    "path": ".claude/skills/multimodal-ai-engineer/SKILL.md"
+  },
+  {
+    "id": "ai-inference-optimizer",
+    "category": "02. AI & Machine Learning Engineering",
+    "path": ".claude/skills/ai-inference-optimizer/SKILL.md"
+  },
+  {
+    "id": "ai-agent-architect",
+    "category": "03. AI Agent & Coding Tools Engineering",
+    "path": ".claude/skills/ai-agent-architect/SKILL.md"
+  },
+  {
+    "id": "coding-agent-engineer",
+    "category": "03. AI Agent & Coding Tools Engineering",
+    "path": ".claude/skills/coding-agent-engineer/SKILL.md"
+  },
+  {
+    "id": "mcp-server-engineer",
+    "category": "03. AI Agent & Coding Tools Engineering",
+    "path": ".claude/skills/mcp-server-engineer/SKILL.md"
+  },
+  {
+    "id": "function-calling-engineer",
+    "category": "03. AI Agent & Coding Tools Engineering",
+    "path": ".claude/skills/function-calling-engineer/SKILL.md"
+  },
+  {
+    "id": "multi-agent-engineer",
+    "category": "03. AI Agent & Coding Tools Engineering",
+    "path": ".claude/skills/multi-agent-engineer/SKILL.md"
+  },
+  {
+    "id": "agent-memory-engineer",
+    "category": "03. AI Agent & Coding Tools Engineering",
+    "path": ".claude/skills/agent-memory-engineer/SKILL.md"
+  },
+  {
+    "id": "codebase-intelligence",
+    "category": "03. AI Agent & Coding Tools Engineering",
+    "path": ".claude/skills/codebase-intelligence/SKILL.md"
+  },
+  {
+    "id": "frontend-engineer",
+    "category": "04. Full-Stack & Application Development",
+    "path": ".claude/skills/frontend-engineer/SKILL.md"
+  },
+  {
+    "id": "backend-engineer",
+    "category": "04. Full-Stack & Application Development",
+    "path": ".claude/skills/backend-engineer/SKILL.md"
+  },
+  {
+    "id": "fullstack-engineer",
+    "category": "04. Full-Stack & Application Development",
+    "path": ".claude/skills/fullstack-engineer/SKILL.md"
+  },
+  {
+    "id": "api-engineer",
+    "category": "04. Full-Stack & Application Development",
+    "path": ".claude/skills/api-engineer/SKILL.md"
+  },
+  {
+    "id": "database-engineer",
+    "category": "04. Full-Stack & Application Development",
+    "path": ".claude/skills/database-engineer/SKILL.md"
+  },
+  {
+    "id": "authentication-engineer",
+    "category": "04. Full-Stack & Application Development",
+    "path": ".claude/skills/authentication-engineer/SKILL.md"
+  },
+  {
+    "id": "android-app-engineer",
+    "category": "04. Full-Stack & Application Development",
+    "path": ".claude/skills/android-app-engineer/SKILL.md"
+  },
+  {
+    "id": "desktop-app-engineer",
+    "category": "04. Full-Stack & Application Development",
+    "path": ".claude/skills/desktop-app-engineer/SKILL.md"
+  },
+  {
+    "id": "software-reverse-engineer",
+    "category": "05. Reverse Engineering & Analysis",
+    "path": ".claude/skills/software-reverse-engineer/SKILL.md"
+  },
+  {
+    "id": "web-app-analyzer",
+    "category": "05. Reverse Engineering & Analysis",
+    "path": ".claude/skills/web-app-analyzer/SKILL.md"
+  },
+  {
+    "id": "apk-analysis-engineer",
+    "category": "05. Reverse Engineering & Analysis",
+    "path": ".claude/skills/apk-analysis-engineer/SKILL.md"
+  },
+  {
+    "id": "binary-analysis-engineer",
+    "category": "05. Reverse Engineering & Analysis",
+    "path": ".claude/skills/binary-analysis-engineer/SKILL.md"
+  },
+  {
+    "id": "api-traffic-analyzer",
+    "category": "05. Reverse Engineering & Analysis",
+    "path": ".claude/skills/api-traffic-analyzer/SKILL.md"
+  },
+  {
+    "id": "devops-engineer",
+    "category": "06. DevOps & Infrastructure",
+    "path": ".claude/skills/devops-engineer/SKILL.md"
+  },
+  {
+    "id": "docker-engineer",
+    "category": "06. DevOps & Infrastructure",
+    "path": ".claude/skills/docker-engineer/SKILL.md"
+  },
+  {
+    "id": "cloud-engineer",
+    "category": "06. DevOps & Infrastructure",
+    "path": ".claude/skills/cloud-engineer/SKILL.md"
+  },
+  {
+    "id": "cicd-engineer",
+    "category": "06. DevOps & Infrastructure",
+    "path": ".claude/skills/cicd-engineer/SKILL.md"
+  },
+  {
+    "id": "distributed-systems-engineer",
+    "category": "06. DevOps & Infrastructure",
+    "path": ".claude/skills/distributed-systems-engineer/SKILL.md"
+  },
+  {
+    "id": "performance-engineer",
+    "category": "06. DevOps & Infrastructure",
+    "path": ".claude/skills/performance-engineer/SKILL.md"
+  },
+  {
+    "id": "application-security-engineer",
+    "category": "07. Security & Testing",
+    "path": ".claude/skills/application-security-engineer/SKILL.md"
+  },
+  {
+    "id": "api-security-engineer",
+    "category": "07. Security & Testing",
+    "path": ".claude/skills/api-security-engineer/SKILL.md"
+  },
+  {
+    "id": "secure-code-reviewer",
+    "category": "07. Security & Testing",
+    "path": ".claude/skills/secure-code-reviewer/SKILL.md"
+  },
+  {
+    "id": "test-automation-engineer",
+    "category": "07. Security & Testing",
+    "path": ".claude/skills/test-automation-engineer/SKILL.md"
+  },
+  {
+    "id": "debugging-engineer",
+    "category": "07. Security & Testing",
+    "path": ".claude/skills/debugging-engineer/SKILL.md"
+  },
+  {
+    "id": "reliability-engineer",
+    "category": "07. Security & Testing",
+    "path": ".claude/skills/reliability-engineer/SKILL.md"
+  },
+  {
+    "id": "programming-language-engineer",
+    "category": "08. Advanced Technology",
+    "path": ".claude/skills/programming-language-engineer/SKILL.md"
+  },
+  {
+    "id": "compiler-engineer",
+    "category": "08. Advanced Technology",
+    "path": ".claude/skills/compiler-engineer/SKILL.md"
+  },
+  {
+    "id": "operating-system-engineer",
+    "category": "08. Advanced Technology",
+    "path": ".claude/skills/operating-system-engineer/SKILL.md"
+  },
+  {
+    "id": "browser-engineer",
+    "category": "08. Advanced Technology",
+    "path": ".claude/skills/browser-engineer/SKILL.md"
+  },
+  {
+    "id": "database-internals-engineer",
+    "category": "08. Advanced Technology",
+    "path": ".claude/skills/database-internals-engineer/SKILL.md"
+  },
+  {
+    "id": "network-protocol-engineer",
+    "category": "08. Advanced Technology",
+    "path": ".claude/skills/network-protocol-engineer/SKILL.md"
+  },
+  {
+    "id": "blockchain-engineer",
+    "category": "08. Advanced Technology",
+    "path": ".claude/skills/blockchain-engineer/SKILL.md"
+  },
+  {
+    "id": "3d-rendering-engineer",
+    "category": "09. Creative & Graphics Engineering",
+    "path": ".claude/skills/3d-rendering-engineer/SKILL.md"
+  },
+  {
+    "id": "game-engine-engineer",
+    "category": "09. Creative & Graphics Engineering",
+    "path": ".claude/skills/game-engine-engineer/SKILL.md"
+  },
+  {
+    "id": "computer-vision-engineer",
+    "category": "09. Creative & Graphics Engineering",
+    "path": ".claude/skills/computer-vision-engineer/SKILL.md"
+  },
+  {
+    "id": "audio-engineer",
+    "category": "09. Creative & Graphics Engineering",
+    "path": ".claude/skills/audio-engineer/SKILL.md"
+  },
+  {
+    "id": "video-processing-engineer",
+    "category": "09. Creative & Graphics Engineering",
+    "path": ".claude/skills/video-processing-engineer/SKILL.md"
+  },
+  {
+    "id": "graphics-engineer",
+    "category": "09. Creative & Graphics Engineering",
+    "path": ".claude/skills/graphics-engineer/SKILL.md"
+  },
+  {
+    "id": "ui-ux-engineer",
+    "category": "09. Creative & Graphics Engineering",
+    "path": ".claude/skills/ui-ux-engineer/SKILL.md"
+  },
+  {
+    "id": "skill-builder",
+    "category": "10. Skill Management & Research",
+    "path": ".claude/skills/skill-builder/SKILL.md"
+  },
+  {
+    "id": "skill-orchestrator",
+    "category": "10. Skill Management & Research",
+    "path": ".claude/skills/skill-orchestrator/SKILL.md"
+  },
+  {
+    "id": "engineering-researcher",
+    "category": "10. Skill Management & Research",
+    "path": ".claude/skills/engineering-researcher/SKILL.md"
+  },
+  {
+    "id": "android-architecture-engineer",
+    "category": "11. Android Engineering",
+    "path": ".claude/skills/android-architecture-engineer/SKILL.md"
+  },
+  {
+    "id": "android-performance-engineer",
+    "category": "11. Android Engineering",
+    "path": ".claude/skills/android-performance-engineer/SKILL.md"
+  },
+  {
+    "id": "android-ai-app-engineer",
+    "category": "11. Android Engineering",
+    "path": ".claude/skills/android-ai-app-engineer/SKILL.md"
+  },
+  {
+    "id": "android-voice-engineer",
+    "category": "11. Android Engineering",
+    "path": ".claude/skills/android-voice-engineer/SKILL.md"
+  },
+  {
+    "id": "ai-application-engineer",
+    "category": "12. AI Application Engineering",
+    "path": ".claude/skills/ai-application-engineer/SKILL.md"
+  },
+  {
+    "id": "ai-voice-engineer",
+    "category": "12. AI Application Engineering",
+    "path": ".claude/skills/ai-voice-engineer/SKILL.md"
+  },
+  {
+    "id": "ai-image-engineer",
+    "category": "12. AI Application Engineering",
+    "path": ".claude/skills/ai-image-engineer/SKILL.md"
+  },
+  {
+    "id": "ai-video-engineer",
+    "category": "12. AI Application Engineering",
+    "path": ".claude/skills/ai-video-engineer/SKILL.md"
+  },
+  {
+    "id": "ai-search-engineer",
+    "category": "12. AI Application Engineering",
+    "path": ".claude/skills/ai-search-engineer/SKILL.md"
+  },
+  {
+    "id": "ai-evaluation-engineer",
+    "category": "12. AI Application Engineering",
+    "path": ".claude/skills/ai-evaluation-engineer/SKILL.md"
+  },
+  {
+    "id": "documentary-media-generator",
+    "category": "13. Documentary Production (original 15 + 3 additions)",
+    "path": ".claude/skills/documentary-media-generator/SKILL.md"
+  },
+  {
+    "id": "ai-voice-generation-engineer",
+    "category": "13. Documentary Production (original 15 + 3 additions)",
+    "path": ".claude/skills/ai-voice-generation-engineer/SKILL.md"
+  },
+  {
+    "id": "automated-video-renderer",
+    "category": "13. Documentary Production (original 15 + 3 additions)",
+    "path": ".claude/skills/automated-video-renderer/SKILL.md"
+  },
+  {
+    "id": "documentary-research",
+    "category": "13. Documentary Production (original 15 + 3 additions)",
+    "path": ".claude/skills/documentary-research/SKILL.md"
+  },
+  {
+    "id": "fact-checker",
+    "category": "13. Documentary Production (original 15 + 3 additions)",
+    "path": ".claude/skills/fact-checker/SKILL.md"
+  },
+  {
+    "id": "hindi-scriptwriter",
+    "category": "13. Documentary Production (original 15 + 3 additions)",
+    "path": ".claude/skills/hindi-scriptwriter/SKILL.md"
+  },
+  {
+    "id": "storyboard-director",
+    "category": "13. Documentary Production (original 15 + 3 additions)",
+    "path": ".claude/skills/storyboard-director/SKILL.md"
+  },
+  {
+    "id": "visual-prompt-engineer",
+    "category": "13. Documentary Production (original 15 + 3 additions)",
+    "path": ".claude/skills/visual-prompt-engineer/SKILL.md"
+  },
+  {
+    "id": "character-continuity",
+    "category": "13. Documentary Production (original 15 + 3 additions)",
+    "path": ".claude/skills/character-continuity/SKILL.md"
+  },
+  {
+    "id": "voiceover-director",
+    "category": "13. Documentary Production (original 15 + 3 additions)",
+    "path": ".claude/skills/voiceover-director/SKILL.md"
+  },
+  {
+    "id": "audio-designer",
+    "category": "13. Documentary Production (original 15 + 3 additions)",
+    "path": ".claude/skills/audio-designer/SKILL.md"
+  },
+  {
+    "id": "subtitle-generator",
+    "category": "13. Documentary Production (original 15 + 3 additions)",
+    "path": ".claude/skills/subtitle-generator/SKILL.md"
+  },
+  {
+    "id": "documentary-editor",
+    "category": "13. Documentary Production (original 15 + 3 additions)",
+    "path": ".claude/skills/documentary-editor/SKILL.md"
+  },
+  {
+    "id": "video-quality-checker",
+    "category": "13. Documentary Production (original 15 + 3 additions)",
+    "path": ".claude/skills/video-quality-checker/SKILL.md"
+  },
+  {
+    "id": "youtube-packager",
+    "category": "13. Documentary Production (original 15 + 3 additions)",
+    "path": ".claude/skills/youtube-packager/SKILL.md"
+  },
+  {
+    "id": "copyright-license-auditor",
+    "category": "13. Documentary Production (original 15 + 3 additions)",
+    "path": ".claude/skills/copyright-license-auditor/SKILL.md"
+  },
+  {
+    "id": "production-orchestrator",
+    "category": "13. Documentary Production (original 15 + 3 additions)",
+    "path": ".claude/skills/production-orchestrator/SKILL.md"
+  },
+  {
+    "id": "router-integration-planner",
+    "category": "13. Documentary Production (original 15 + 3 additions)",
+    "path": ".claude/skills/router-integration-planner/SKILL.md"
+  }
+]
