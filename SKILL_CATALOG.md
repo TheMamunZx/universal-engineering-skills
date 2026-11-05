@@ -1,8 +1,10 @@
 # Skill Catalog
 
-**Total: 91 unique skill IDs**
+**Total: 73 unique skill IDs**
 
 Each ID maps to exactly one folder under `.claude/skills/`. Descriptions are intentionally scoped to reduce overlap.
+
+> Documentary production now lives in the separate [AI Documentary Studio](https://github.com/TheMamunZx/ai-documentary-studio) repository as the single `ai-documentary-studio` skill.
 
 ## 01. Core Software Engineering
 
@@ -112,24 +114,3 @@ Each ID maps to exactly one folder under `.claude/skills/`. Descriptions are int
 71. **`ai-video-engineer`** — Build applications that generate, edit, or understand video with AI.
 72. **`ai-search-engineer`** — Build AI-assisted search and research systems.
 73. **`ai-evaluation-engineer`** — Evaluate AI system quality, reliability, and safety.
-
-## 13. Documentary Production (original 15 + 3 additions)
-
-74. **`documentary-research`** — Research documentary topics with traceable sources
-75. **`fact-checker`** — Audit historical and scientific claims for accuracy
-76. **`hindi-scriptwriter`** — Write engaging, accurate Hindi documentary narration
-77. **`storyboard-director`** — Convert narration into an executable shot plan
-78. **`visual-prompt-engineer`** — Write consistent, historically grounded image and video prompts
-79. **`character-continuity`** — Maintain continuity across recurring documentary characters and locations
-80. **`voiceover-director`** — Prepare and quality-check Hindi narration recordings
-81. **`audio-designer`** — Design narration-first soundscapes for documentaries
-82. **`subtitle-generator`** — Create accurately timed Hindi subtitles
-83. **`documentary-editor`** — Assemble approved assets into a documentary timeline
-84. **`video-quality-checker`** — Run technical and editorial QC before publishing
-85. **`youtube-packager`** — Prepare truthful YouTube publishing metadata
-86. **`copyright-license-auditor`** — Track copyright, licenses and media provenance
-87. **`production-orchestrator`** — Coordinate the full documentary production pipeline
-88. **`router-integration-planner`** — Plan safe integration with a configured API router
-89. **`documentary-media-generator`** — Generate and manage documentary image/video assets from an approved storyboard.
-90. **`ai-voice-generation-engineer`** — Generate licensed Hindi narration audio from approved scripts.
-91. **`automated-video-renderer`** — Assemble approved media, narration, music, and subtitles into a verified final video.

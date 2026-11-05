@@ -1,6 +1,6 @@
 ![Universal Engineering Skills Library](assets/readme-banner.jpg)
 
-[![91 Skills](https://img.shields.io/badge/Skills-91-F95C2F?style=for-the-badge)](.claude/skills/)
+[![73 Skills](https://img.shields.io/badge/Skills-73-F95C2F?style=for-the-badge)](.claude/skills/)
 [![Claude Code](https://img.shields.io/badge/Claude_Code-compatible-0D1117?style=for-the-badge&logo=anthropic&logoColor=F95C2F)](https://docs.anthropic.com/en/docs/claude-code/skills)
 [![OpenCode](https://img.shields.io/badge/OpenCode-compatible-0D1117?style=for-the-badge)](https://opencode.ai/docs/skills/)
 [![SKILL.md](https://img.shields.io/badge/Format-SKILL.md-0D1117?style=for-the-badge&logo=markdown&logoColor=F95C2F)](SKILL_CATALOG.md)
@@ -11,7 +11,7 @@
 
 ## 🟠 About the Library
 
-Universal Engineering Skills is a collection of **91 individually scoped agent skills** designed to support Claude Code and OpenCode through the shared Claude-compatible skill layout:
+Universal Engineering Skills is a collection of **73 individually scoped agent skills** designed to support Claude Code and OpenCode through the shared Claude-compatible skill layout:
 
 ```text
 .claude/skills/<skill-id>/SKILL.md
@@ -21,7 +21,7 @@ Use the library as a set of specialist playbooks. An AI coding agent can load th
 
 <div align="center">
 
-| **91** | **13** | **2** |
+| **73** | **12** | **2** |
 |:---:|:---:|:---:|
 | Individual skills | Engineering categories | Target coding agents |
 
@@ -29,7 +29,7 @@ Use the library as a set of specialist playbooks. An AI coding agent can load th
 
 ## 🧭 Skill Categories
 
-Browse the 13 areas below. Each category links to its section in the complete catalog.
+Browse the 12 areas below. Each category links to its section in the complete catalog.
 
 | Category | Skills | Focus |
 |---|:---:|---|
@@ -45,9 +45,10 @@ Browse the 13 areas below. Each category links to its section in the complete ca
 | [10 · Skill Management & Research](SKILL_CATALOG.md#10-skill-management--research) | **3** | Skill creation, orchestration, technical research |
 | [11 · Android Engineering](SKILL_CATALOG.md#11-android-engineering) | **4** | Android architecture, performance, AI and voice integration |
 | [12 · AI Application Engineering](SKILL_CATALOG.md#12-ai-application-engineering) | **6** | AI apps, voice, image, video, search, evaluation |
-| [13 · Documentary Production](SKILL_CATALOG.md#13-documentary-production-original-15--3-additions) | **18** | Research, Hindi scripts, storyboards, media, voice, editing and publishing |
 
 > **Complete index:** [SKILL_CATALOG.md](SKILL_CATALOG.md) lists every skill ID and its defined responsibility. [OVERLAP_BOUNDARIES.md](OVERLAP_BOUNDARIES.md) explains how closely related skills stay distinct.
+>
+> **Documentary production:** The documentary workflow moved to the separate [AI Documentary Studio](https://github.com/TheMamunZx/ai-documentary-studio) repository, which packages it as the single `ai-documentary-studio` skill.
 
 ## ✨ What Can You Build?
 
@@ -58,7 +59,7 @@ Browse the 13 areas below. Each category links to its section in the complete ca
 | Android AI or voice assistant | `android-app-engineer`, `android-architecture-engineer`, `android-ai-app-engineer`, `android-voice-engineer` |
 | Full-stack website or SaaS | `software-architect`, `frontend-engineer`, `backend-engineer`, `database-engineer`, `api-engineer` |
 | Desktop app, IDE or browser tool | `desktop-app-engineer`, `browser-engineer`, `coding-agent-engineer`, `ui-ux-engineer` |
-| Hindi documentary production | `production-orchestrator`, `documentary-research`, `fact-checker`, `hindi-scriptwriter`, `automated-video-renderer` |
+| Hindi documentary production | Use the separate [`ai-documentary-studio`](https://github.com/TheMamunZx/ai-documentary-studio) skill |
 | 3D or game technology | `3d-rendering-engineer`, `graphics-engineer`, `game-engine-engineer`, `performance-engineer` |
 
 ## ⚙️ How the Skills Work Together
@@ -88,7 +89,7 @@ flowchart LR
     G --> H[YouTube package]
 ```
 
-The documentary skills support planning and execution, but **they do not provide AI models, media APIs, voice services, or rendering software by themselves**. Connect suitable providers and local tools (for example, FFmpeg) and verify that they work before starting production.
+Documentary production moved to the separate [AI Documentary Studio](https://github.com/TheMamunZx/ai-documentary-studio) repository. That skill supports planning and execution, but **it does not provide AI models, media APIs, voice services, or rendering software by itself**. Connect suitable providers and local tools (for example, FFmpeg) and verify that they work before starting production.
 
 ## 🚀 Installation
 
@@ -154,7 +155,7 @@ The validator checks the expected number of skill folders, unique IDs, matching 
 
 | Document | Description |
 |---|---|
-| [Skill Catalog](SKILL_CATALOG.md) | Complete list of all 91 skills and their responsibilities |
+| [Skill Catalog](SKILL_CATALOG.md) | Complete list of all 73 skills and their responsibilities |
 | [Agent Guide](AGENT_GUIDE.md) | Portable guidance for selecting and coordinating skills |
 | [AGENTS.md](AGENTS.md) | General agent operating instructions |
 | [CLAUDE.md](CLAUDE.md) | Claude-oriented project guidance |

@@ -15,7 +15,7 @@ Use this skill when the task materially requires: containers/codecs, frame rates
 Containers/codecs, frame rates, timestamps, resolution, filters, metadata, stream handling, and validation.
 
 ## Out of scope
-Do not conflate file processing with documentary editing/render orchestration; delegate final timeline assembly to automated-video-renderer.
+Do not conflate file processing with documentary editing/render orchestration; delegate final timeline assembly to the separate ai-documentary-studio skill.
 
 ## Required inputs
 Input files, target format, resolution/frame rate, platform, quality/size constraints.
@@ -35,7 +35,7 @@ Processing pipeline, command/config, metadata report, validation results.
 Output stream metadata and playback are verified; source files remain intact.
 
 ## Handoffs and collaboration
-Coordinate with: audio-engineer, automated-video-renderer, performance-engineer. Load another skill only when its distinct responsibility is needed. Keep the boundary between this skill and collaborators explicit.
+Coordinate with: audio-engineer, performance-engineer. Load another skill only when its distinct responsibility is needed. Keep the boundary between this skill and collaborators explicit.
 
 ## Operating rules
 - Inspect the existing project instructions, code, configuration, and conventions before proposing changes.

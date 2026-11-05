@@ -35,7 +35,7 @@ Voice state machine, permission flow, audio integration, lifecycle tests, privac
 Recording is visible and user-controlled; lifecycle and permission behavior are tested.
 
 ## Handoffs and collaboration
-Coordinate with: android-app-engineer, ai-voice-engineer, ai-voice-generation-engineer, application-security-engineer. Load another skill only when its distinct responsibility is needed. Keep the boundary between this skill and collaborators explicit.
+Coordinate with: android-app-engineer, ai-voice-engineer, application-security-engineer. Load another skill only when its distinct responsibility is needed. Keep the boundary between this skill and collaborators explicit.
 
 ## Operating rules
 - Inspect the existing project instructions, code, configuration, and conventions before proposing changes.

@@ -1,13 +1,12 @@
-# Universal Engineering Skills Library (91 Skills)
+# Universal Engineering Skills Library (73 Skills)
 
-এই Library-তে ৯১টি আলাদা Skill আছে। প্রতিটি Skill-এর নিজস্ব `.claude/skills/<skill-name>/SKILL.md` ফাইল রয়েছে। এটি Claude Code এবং OpenCode—দুটির জন্য একই skill source ব্যবহার করে।
+এই Library-তে ৭৩টি আলাদা Skill আছে। প্রতিটি Skill-এর নিজস্ব `.claude/skills/<skill-name>/SKILL.md` ফাইল রয়েছে। এটি Claude Code এবং OpenCode—দুটির জন্য একই skill source ব্যবহার করে।
 
 ## কী আছে
 
 - ৬৩টি Universal Software & Engineering Skills
 - ১০টি Android ও AI Application Specialized Skills
-- তোমার দেওয়া ZIP থেকে ১৫টি Documentary Skills (মূল workflow নির্দেশনা সংরক্ষিত)
-- Documentary production সম্পূর্ণ করার জন্য নতুন ৩টি Skill: `documentary-media-generator`, `ai-voice-generation-engineer`, `automated-video-renderer`
+- Documentary production এখন আলাদা [AI Documentary Studio](https://github.com/TheMamunZx/ai-documentary-studio) repository-তে একক `ai-documentary-studio` Skill হিসেবে রয়েছে
 
 ## ব্যবহার: project-local
 
@@ -43,21 +42,21 @@ Python 3 দিয়ে চালাও:
 python scripts/validate_skills.py
 ```
 
-Expected result: 91 skill folders validated.
+Expected result: 73 skill folders validated.
 
 ## Documentary workflow
 
-UNVELL DECODE-এর জন্য `@production-orchestrator` বা Claude Code-এ `/production-orchestrator` দিয়ে শুরু করো। এটি research → fact-check → Hindi script → storyboard → assets → voice/audio → subtitles → edit/render → QC → YouTube package ক্রম অনুসরণ করবে। Output ভাষা হবে Hindi (Devanagari); production workflow ব্যাখ্যা ব্যবহারকারীর পছন্দের ভাষায় হতে পারে।
+Documentary production এখন আলাদা [AI Documentary Studio](https://github.com/TheMamunZx/ai-documentary-studio) repository-তে সরানো হয়েছে। সেখানে একক `ai-documentary-studio` Skill research → fact-check → script → storyboard → assets → voice/audio → subtitles → edit/render → QC → YouTube package সম্পূর্ণ pipeline পরিচালনা করে।
 
-গুরুত্বপূর্ণ: Skills নিজেরা AI image/video/voice generate করে না। সেজন্য বাস্তবে configured provider/tool, যথাযথ অনুমতি, এবং render tool দরকার। `router-integration-planner` আগে পরীক্ষা করবে কোন capability সত্যিই উপলব্ধ। API key কখনো SKILL.md, prompt, source code বা GitHub-এ রাখবে না।
+গুরুত্বপূর্ণ: Skills নিজেরা AI image/video/voice generate করে না। সেজন্য বাস্তবে configured provider/tool, যথাযথ অনুমতি, এবং render tool দরকার। API key কখনো SKILL.md, prompt, source code বা GitHub-এ রাখবে না।
 
 ## Overlap policy
 
-কিছু Skills কাছাকাছি কাজ করে, কিন্তু তাদের দায়িত্ব আলাদা রাখা হয়েছে। উদাহরণ: `code-review-engineer` maintainability ও correctness দেখে; `secure-code-reviewer` security-specific defects দেখে। `audio-engineer` signal processing করে; `audio-designer` documentary soundscape পরিকল্পনা করে। `video-processing-engineer` file/stream transformations করে; `automated-video-renderer` approved timeline assemble ও final output verify করে।
+কিছু Skills কাছাকাছি কাজ করে, কিন্তু তাদের দায়িত্ব আলাদা রাখা হয়েছে। উদাহরণ: `code-review-engineer` maintainability ও correctness দেখে; `secure-code-reviewer` security-specific defects দেখে।
 
 ## গুরুত্বপূর্ণ নিরাপত্তা ও অনুমোদন
 
 - Reverse engineering শুধু নিজের বা অনুমোদিত software-এ।
 - Provider limits, pricing, licenses, and feature support implementation-এর সময় current documentation থেকে verify করতে হবে।
 - Paid generation, bulk jobs, deployment, upload, publication, and destructive changes-এর আগে user approval লাগবে।
-- কোনো export/upload সফল হয়েছে বলা যাবে না যতক্ষণ actual file/status যাচাই হয়নি।
+- কোনো export/upload সফল হয়েছে বলা যাবে না যতক্ষণ actual file/status যাচাই হয়নি।

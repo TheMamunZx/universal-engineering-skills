@@ -15,7 +15,7 @@ Use this skill when the task materially requires: task classification, dependenc
 Task classification, dependency order, parallelization, conflict resolution, and outcome tracking.
 
 ## Out of scope
-Do not load every skill by default or replace the documentary-specific production-orchestrator.
+Do not load every skill by default or replace the documentary-specific ai-documentary-studio skill.
 
 ## Required inputs
 User goal, constraints, project context, skill catalog and available tools.
@@ -35,7 +35,7 @@ Selected skill sequence, rationale, handoff checklist, final completion summary.
 No redundant skill loading; handoffs are explicit; claims of completion match verified artifacts.
 
 ## Handoffs and collaboration
-Coordinate with: production-orchestrator, project-planner, engineering-researcher. Load another skill only when its distinct responsibility is needed. Keep the boundary between this skill and collaborators explicit.
+Coordinate with: project-planner, engineering-researcher. Load another skill only when its distinct responsibility is needed. Keep the boundary between this skill and collaborators explicit.
 
 ## Operating rules
 - Inspect the existing project instructions, code, configuration, and conventions before proposing changes.

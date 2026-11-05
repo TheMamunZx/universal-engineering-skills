@@ -35,7 +35,7 @@ Audio processing pipeline, conversion settings, analysis report, test clips.
 Outputs meet format and signal-quality requirements; transformations are reproducible.
 
 ## Handoffs and collaboration
-Coordinate with: video-processing-engineer, audio-designer, ai-voice-engineer. Load another skill only when its distinct responsibility is needed. Keep the boundary between this skill and collaborators explicit.
+Coordinate with: video-processing-engineer, ai-voice-engineer. Load another skill only when its distinct responsibility is needed. Keep the boundary between this skill and collaborators explicit.
 
 ## Operating rules
 - Inspect the existing project instructions, code, configuration, and conventions before proposing changes.

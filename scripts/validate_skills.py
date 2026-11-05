@@ -5,8 +5,8 @@ ROOT = Path(__file__).resolve().parents[1]
 SKILLS = ROOT / ".claude" / "skills"
 errors = []
 folders = sorted(p for p in SKILLS.iterdir() if p.is_dir()) if SKILLS.exists() else []
-if len(folders) != 91:
-    errors.append(f"Expected 91 skill folders, found {len(folders)}")
+if len(folders) != 73:
+    errors.append(f"Expected 73 skill folders, found {len(folders)}")
 seen = set()
 for folder in folders:
     sid = folder.name

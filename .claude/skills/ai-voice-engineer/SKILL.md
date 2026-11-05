@@ -15,7 +15,7 @@ Use this skill when the task materially requires: sTT, TTS, audio streaming, VAD
 STT, TTS, audio streaming, VAD, interruption/barge-in, latency, language routing, and conversational state.
 
 ## Out of scope
-Do not focus on documentary voiceover batch generation; that belongs to ai-voice-generation-engineer.
+Do not focus on documentary voiceover batch generation; that belongs to the separate ai-documentary-studio skill.
 
 ## Required inputs
 Voice interaction goal, languages, provider/model capabilities, latency target, client platform.

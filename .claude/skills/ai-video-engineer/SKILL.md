@@ -15,7 +15,7 @@ Use this skill when the task materially requires: text/image-to-video routes, vi
 Text/image-to-video routes, video understanding, shot planning, job polling, clip assembly, and metadata.
 
 ## Out of scope
-Do not own a documentary-specific end-to-end production plan or final render orchestration; delegate those to documentary skills.
+Do not own a documentary-specific end-to-end production plan or final render orchestration; delegate those to the separate ai-documentary-studio skill.
 
 ## Required inputs
 Product goal, provider capabilities, duration/resolution, async API behavior, budget, media format.
@@ -35,7 +35,7 @@ Video AI architecture, provider matrix, job state machine, media pipeline and te
 No provider feature is assumed; job states and generated files are verified.
 
 ## Handoffs and collaboration
-Coordinate with: ai-image-engineer, multimodal-ai-engineer, video-processing-engineer, automated-video-renderer. Load another skill only when its distinct responsibility is needed. Keep the boundary between this skill and collaborators explicit.
+Coordinate with: ai-image-engineer, multimodal-ai-engineer, video-processing-engineer. Load another skill only when its distinct responsibility is needed. Keep the boundary between this skill and collaborators explicit.
 
 ## Operating rules
 - Inspect the existing project instructions, code, configuration, and conventions before proposing changes.
